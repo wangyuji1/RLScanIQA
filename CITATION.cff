@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use RL-ScanIQA, please cite the CVPR 2026 paper."
+title: "RL-ScanIQA"
+type: software
+version: 0.1.0
+date-released: 2026-09-06
+repository-code: "https://github.com/wangyuji1/RLScanIQA"
+url: "https://arxiv.org/abs/2603.14297"
+authors:
+  - family-names: Wang
+    given-names: Yujia
+  - family-names: Li
+    given-names: Yuyan
+  - family-names: Liu
+    given-names: Jiuming
+  - family-names: Zhang
+    given-names: Fang-Lue
+  - family-names: Zheng
+    given-names: Xinhu
+  - family-names: Dodgson
+    given-names: Neil A.
+preferred-citation:
+  type: conference-paper
+  title: "RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment"
+  authors:
+    - family-names: Wang
+      given-names: Yujia
+    - family-names: Li
+      given-names: Yuyan
+    - family-names: Liu
+      given-names: Jiuming
+    - family-names: Zhang
+      given-names: Fang-Lue
+    - family-names: Zheng
+      given-names: Xinhu
+    - family-names: Dodgson
+      given-names: Neil A.
+  conference:
+    name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  year: 2026
+  doi: 10.48550/arXiv.2603.14297

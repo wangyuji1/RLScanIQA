@@ -1,0 +1,70 @@
+# OS and editor metadata
+.DS_Store
+._*
+__MACOSX/
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+dist/
+build/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+
+# Datasets and local labels
+CVIQ_Database/
+OIQA/
+JUFE/
+data/
+datasets/
+assets/dataset_samples/
+*.mat
+
+# Models, caches, and experiment outputs
+checkpoints/
+weights/
+pretrained/
+runs/
+wandb/
+logs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Archives and private publication material
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*Rebutt*.pdf
+*rebutt*.pdf
+*InvitationLetter*.pdf
+*review*.pdf
+*submission*.pdf
+*.pptx

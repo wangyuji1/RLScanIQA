@@ -1,0 +1,8 @@
+setting,train_dataset,test_dataset,srcc,plcc,source_table
+in-dataset,JUFE,JUFE,0.816,0.902,main_table_1
+in-dataset,OIQA,OIQA,0.941,0.967,main_table_1
+in-dataset,CVIQD,CVIQD,0.970,0.970,main_table_1
+cross-dataset,CVIQD,OIQA,0.901,0.913,main_table_2
+cross-dataset,CVIQD,JUFE,0.800,0.822,main_table_2
+cross-dataset,JUFE,CVIQD,0.771,0.802,main_table_2
+cross-dataset,JUFE,OIQA,0.755,0.833,main_table_2
