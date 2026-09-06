@@ -1,6 +1,6 @@
 # Paper-reported results
 
-This page collects the quantitative results reported in the RL-ScanIQA paper and its author-provided supplementary material. The repository does not include trained checkpoints, per-split logs, or raw benchmark data, so these tables are provided for reference and are **not presented as independently reproduced by this code checkout**.
+This page collects the quantitative results reported in the [CVPR 2026 paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html), published on pages 37401–37412, and its author-provided supplementary material. The repository does not include trained checkpoints, per-split logs, or raw benchmark data, so these tables are provided for reference and are **not presented as independently reproduced by this code checkout**.
 
 ## Evaluation protocol
 

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "rl-scaniqa"
 version = "0.1.0"
-description = "Reinforcement-learned scanpaths for blind 360-degree image quality assessment"
+description = "Official CVPR 2026 implementation of RL-ScanIQA for blind 360-degree image quality assessment"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
@@ -38,7 +38,8 @@ dev = [
 ]
 
 [project.urls]
-Paper = "https://arxiv.org/abs/2603.14297"
+Paper = "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html"
+Preprint = "https://arxiv.org/abs/2603.14297"
 Repository = "https://github.com/wangyuji1/RLScanIQA"
 
 [tool.setuptools.packages.find]

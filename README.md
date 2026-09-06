@@ -4,19 +4,22 @@
 
 ### Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment
 
-[![CVPR 2026](https://img.shields.io/badge/CVPR-2026-0A7DBB.svg)](https://arxiv.org/abs/2603.14297)
+[![CVPR 2026](https://img.shields.io/badge/CVPR_2026-Accepted-0A7DBB.svg)](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html)
+[![Tests](https://github.com/wangyuji1/RLScanIQA/actions/workflows/tests.yml/badge.svg)](https://github.com/wangyuji1/RLScanIQA/actions/workflows/tests.yml)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 
 **Yujia Wang · Yuyan Li · Jiuming Liu · Fang-Lue Zhang · Xinhu Zheng · Neil A. Dodgson**
 
-[[Paper](https://arxiv.org/abs/2603.14297)] · [[Results](docs/RESULTS.md)] · [[Reproducibility](docs/REPRODUCIBILITY.md)] · [[中文说明](docs/README_zh-CN.md)]
+**Accepted at CVPR 2026 · Proceedings pp. 37401–37412 (12 pages)**
+
+[[CVF Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html)] · [[arXiv](https://arxiv.org/abs/2603.14297)] · [[Results](docs/RESULTS.md)] · [[Reproducibility](docs/REPRODUCIBILITY.md)] · [[中文说明](docs/README_zh-CN.md)]
 
 </div>
 
 ![RL-ScanIQA poster preview](assets/poster_preview.jpg)
 
-RL-ScanIQA formulates blind 360° image quality assessment as **active perception**. A PPO-trained policy learns where to look, while an attention-based quality assessor learns how those selected viewports explain perceptual quality. Both components are optimized jointly from IQA supervision, without requiring human scanpath annotations.
+RL-ScanIQA, published in the **CVPR 2026 proceedings**, formulates blind 360° image quality assessment as **active perception**. A PPO-trained policy learns where to look, while an attention-based quality assessor learns how those selected viewports explain perceptual quality. Both components are optimized jointly from IQA supervision, without requiring human scanpath annotations.
 
 ## Highlights
 
@@ -160,11 +163,13 @@ RLScanIQA/
 If this work helps your research, please cite:
 
 ```bibtex
-@inproceedings{wang2026rlscaniqa,
-  title     = {RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment},
+@InProceedings{Wang_2026_CVPR,
   author    = {Wang, Yujia and Li, Yuyan and Liu, Jiuming and Zhang, Fang-Lue and Zheng, Xinhu and Dodgson, Neil A.},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year      = {2026}
+  title     = {RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360deg Image Quality Assessment},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2026},
+  pages     = {37401--37412}
 }
 ```
 

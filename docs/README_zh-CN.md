@@ -1,5 +1,9 @@
 # RL-ScanIQA 中文说明
 
+> **论文已被 CVPR 2026 正式接收并收入会议论文集，页码为 37401–37412，共 12 页。**
+>
+> [CVF 官方论文](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html) · [arXiv](https://arxiv.org/abs/2603.14297)
+
 RL-ScanIQA 将无参考 360° 图像质量评价重新表述为主动感知问题：模型不再单独模仿人类注视轨迹，而是通过 PPO 从质量预测反馈中学习与 IQA 任务相关的视点选择策略。
 
 ## 仓库内容

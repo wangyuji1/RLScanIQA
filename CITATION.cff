@@ -5,7 +5,7 @@ type: software
 version: 0.1.0
 date-released: 2026-09-06
 repository-code: "https://github.com/wangyuji1/RLScanIQA"
-url: "https://arxiv.org/abs/2603.14297"
+url: "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html"
 authors:
   - family-names: Wang
     given-names: Yujia
@@ -37,5 +37,8 @@ preferred-citation:
       given-names: Neil A.
   conference:
     name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  month: 6
   year: 2026
-  doi: 10.48550/arXiv.2603.14297
+  start: 37401
+  end: 37412
+  url: "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html"
