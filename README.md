@@ -13,7 +13,7 @@
 
 **Accepted at CVPR 2026 · Proceedings pp. 37401–37412 (12 pages)**
 
-[[CVF Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html)] · [[arXiv](https://arxiv.org/abs/2603.14297)] · [[Results](docs/RESULTS.md)] · [[Reproducibility](docs/REPRODUCIBILITY.md)] · [[中文说明](docs/README_zh-CN.md)]
+[[CVF Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RL-ScanIQA_Reinforcement-Learned_Scanpaths_for_Blind_360deg_Image_Quality_Assessment_CVPR_2026_paper.html)] · [[arXiv](https://arxiv.org/abs/2603.14297)] · [[Results](docs/RESULTS.md)] · [[Reproducibility](docs/REPRODUCIBILITY.md)]
 
 </div>
 
